@@ -127,42 +127,42 @@
 // console.log(d2)
 
 // Полимарфизм
-class Animal {
-  name = ''
-  hieght = ''
-  constructor (n) {
-    // this.name = n
-  }
-
-  breath () {
-    console.log('breath!')
-  }
-voice () {
-  console.log('?')
- }
-}
-
-class Dog extends Animal { // extends наследовать
-constructor(n) {
-  super ()
-  this.name = n
-  // this.height = h
-}
-  voice() {
-    console.log('Bark')
-  }
-}
-class Cat extends Animal {
-  constructor(n) {
-    super(n)
-  }
-  voice() {
-    console.log('Meow')
-  }
-}
-
-
-const myPets = [new Cat(), new Dog()]
-myPets.forEach(function(pet){
-  pet.voice()
-})
+// class Animal {
+//   name = ''
+//   hieght = ''
+//   constructor (n) {
+//     // this.name = n
+//   }
+//
+//   breath () {
+//     console.log('breath!')
+//   }
+// voice () {
+//   console.log('?')
+//  }
+// }
+//
+// class Dog extends Animal { // extends наследовать
+// constructor(n) {
+//   super ()
+//   this.name = n
+//   // this.height = h
+// }
+//   voice() {
+//     console.log('Bark')
+//   }
+// }
+// class Cat extends Animal {
+//   constructor(n) {
+//     super(n)
+//   }
+//   voice() {
+//     console.log('Meow')
+//   }
+// }
+//
+//
+// const myPets = [new Cat(), new Dog()]
+// myPets.forEach(function(pet){
+//   pet.voice()
+// })
